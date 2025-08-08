@@ -34,7 +34,7 @@ const SocialProofSection = () => {
       </motion.h2>
       <div className="mt-8">
         <SkiperMarquee className="flex gap-12 items-center" pauseOnHover repeat={2}>
-          {/* <img src="/brand-logos/Tata_logo.svg" alt="Tata" className="h-16 w-auto grayscale hover:grayscale-0 transition" /> */}
+          {/* <Image src="/brand-logos/Tata_logo.svg" alt="Tata" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" /> */}
           <Image src="/brand-logos/apple.svg" alt="Apple" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
           <Image src="/brand-logos/samsung.svg" alt="Samsung" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
           <Image src="/brand-logos/google.svg" alt="Google" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
