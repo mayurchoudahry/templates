@@ -114,7 +114,7 @@ function shuffleArray<T>(array: T[]): T[] {
   return array
 }
 
-function Card(card: { icon: JSX.Element; bg: JSX.Element }) {
+function Card(card: { icon: JSX.Element; bg?: JSX.Element }) {
   const id = useId()
   const controls = useAnimation()
   const ref = useRef(null)
@@ -142,7 +142,7 @@ function Card(card: { icon: JSX.Element; bg: JSX.Element }) {
       )}
     >
       {card.icon}
-      {card.bg}
+      {card.bg && card.bg}
     </motion.div>
   )
 }
