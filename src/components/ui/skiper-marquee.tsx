@@ -158,7 +158,7 @@ export function SkiperMarquee({
   className?: string,
   pauseOnHover?: boolean,
   repeat?: number,
-  [key: string]: any
+  [key: string]: unknown
 }) {
   const [randomTiles1, setRandomTiles1] = useState<typeof tiles>([])
   const [randomTiles2, setRandomTiles2] = useState<typeof tiles>([])

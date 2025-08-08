@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import FlipLink from '@/components/ui/text-effect-flipper'
 
 
@@ -24,9 +25,11 @@ const AboutSection = () => {
         viewport={{ once: true }}
         className="mt-8 max-w-3xl mx-auto text-center"
       >
-        <img
+        <Image
           src="/images/profile.png"
           alt="Profile of Mayur Choudhary"
+          width={128}
+          height={128}
           className="mx-auto mb-8 w-32 h-32 rounded-full object-cover shadow-lg border-4 border-white dark:border-gray-700"
         />
         <div className="flex justify-center gap-6 mb-4 text-lg">
@@ -40,7 +43,7 @@ const AboutSection = () => {
           viewport={{ once: true }}
           className="text-[18px] leading-relaxed text-gray-700 mb-8 font-[Montserrat,sans-serif]"
         >
-          Hi! I'm <span className="font-extrabold text-black" style={{ fontFamily: 'Montserrat, sans-serif' }}>Mayur Choudhary</span>, a passionate Cinematographer and Video Editor dedicated to crafting visually stunning stories. I love experimenting with new techniques and pushing creative boundaries in every project I take on.
+          Hi! I&apos;m <span className="font-extrabold text-black" style={{ fontFamily: 'Montserrat, sans-serif' }}>Mayur Choudhary</span>, a passionate Cinematographer and Video Editor dedicated to crafting visually stunning stories. I love experimenting with new techniques and pushing creative boundaries in every project I take on.
         </motion.p>
         <div className="flex flex-col md:flex-row justify-center gap-12">
           {/* Software Section */}

@@ -3,7 +3,6 @@
 'use client'
 
 import Link from 'next/link'
-import { useTheme } from './ThemeContext'
 import ThemeToggleButton from './ThemeToggleButton'
 
 const Navbar = () => {

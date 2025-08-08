@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { SkiperMarquee } from '@/components/ui/skiper-marquee'
+import Image from 'next/image'
 
 const SocialProofSection = () => {
   return (
@@ -34,11 +35,11 @@ const SocialProofSection = () => {
       <div className="mt-8">
         <SkiperMarquee className="flex gap-12 items-center" pauseOnHover repeat={2}>
           {/* <img src="/brand-logos/Tata_logo.svg" alt="Tata" className="h-16 w-auto grayscale hover:grayscale-0 transition" /> */}
-          <img src="/brand-logos/apple.svg" alt="Apple" className="h-16 w-auto grayscale hover:grayscale-0 transition" />
-          <img src="/brand-logos/samsung.svg" alt="Samsung" className="h-16 w-auto grayscale hover:grayscale-0 transition" />
-          <img src="/brand-logos/google.svg" alt="Google" className="h-16 w-auto grayscale hover:grayscale-0 transition" />
-          <img src="/brand-logos/facebook.svg" alt="Facebook" className="h-16 w-auto grayscale hover:grayscale-0 transition" />
-          <img src="/brand-logos/amazon.svg" alt="Amazon" className="h-16 w-auto grayscale hover:grayscale-0 transition" />
+          <Image src="/brand-logos/apple.svg" alt="Apple" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
+          <Image src="/brand-logos/samsung.svg" alt="Samsung" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
+          <Image src="/brand-logos/google.svg" alt="Google" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
+          <Image src="/brand-logos/facebook.svg" alt="Facebook" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
+          <Image src="/brand-logos/amazon.svg" alt="Amazon" width={64} height={64} className="h-16 w-auto grayscale hover:grayscale-0 transition" />
         </SkiperMarquee>
       </div>
       <motion.p
